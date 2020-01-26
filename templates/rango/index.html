@@ -5,6 +5,11 @@
 <html>
   <head>
       <title>Rango</title>
+      <style>
+        img {
+          width: 300px;
+        }
+      </style>
   </head>
 
   <body>
@@ -14,6 +19,7 @@
           <strong>{{ boldmessage }}</strong><br />
       </div>
       <div>
+        <h2>Most Liked Categories</h2>
         {% if categories %}
           <ul>
             {% for category in categories %}
@@ -22,6 +28,18 @@
           </ul>
         {% else %}
         <strong>There are no categories present</strong>
+        {% endif %}
+      </div>
+      <div id='mostViewed'>
+        <h2>Most Viewed Pages</h2>
+        {% if pages %}
+          <ul>
+            {% for page in pages %}
+            <li><strong>{{ page.title }}</strong></li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <strong>There are no pages to display</strong>
         {% endif %}
       </div>
       <div>
