@@ -11,16 +11,16 @@
         {% if pages %}
           <ul>
             {% for page in pages %}
-            <li><a href='{{ page.url }}'>{{ page.title }}</a></li>
+            <li> <a href="{{ page.url }}">{{ page.title }}</a> </li>
             {% endfor %}
           </ul>
           {% else %}
           <strong>No pages currently in category.</strong>
           {% endif %}
         {% else %}
-          The specified category doesn't exist.
+          The specified category does not exist.
         {% endif %}
     </div>
-    <div>Return <a href='/rango/'>home</a>.</div>
+    <div>Go to <a href="/rango/">home</a>.</div>
   </body>
 </html>

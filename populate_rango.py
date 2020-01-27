@@ -9,11 +9,11 @@ def populate():
 
     python_pages = [
         {'title': 'Official Python Tutorial',
-         'url': 'https://docs.python.org/3/tutorial/'},
-        {'title': 'How to Think Like a Computer Scientist',
-         'url': 'https://www.greenteapress.com/thinkpython/'},
+         'url': 'http://docs.python.org/3/tutorial/'},
+        {'title': 'How to Think like a Computer Scientist',
+         'url': 'http://www.greenteapress.com/thinkpython/'},
         {'title': 'Learn Python in 10 Minutes',
-         'url': 'https://www.korokithakis.net/tutorials/python/'}
+         'url': 'http://www.korokithakis.net/tutorials/python/'}
     ]
 
     django_pages = [
@@ -27,9 +27,9 @@ def populate():
 
     other_pages = [
         {'title':'Bottle',
-         'url':'https://bottlepy.org/docs/dev/'},
+         'url':'http://bottlepy.org/docs/dev/'},
         {'title':'Flask',
-         'url':'https://flask.pocoo.org'}
+         'url':'http://flask.pocoo.org'}
     ]
 
     cats = {'Python': {
