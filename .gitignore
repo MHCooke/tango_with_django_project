@@ -3,3 +3,4 @@ __pycache__/
 thumbs.db
 *.pyc
 *.key
+tests_*
